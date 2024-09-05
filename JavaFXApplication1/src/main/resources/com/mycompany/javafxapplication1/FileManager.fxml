@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.mycompany.javafxapplication1.FileManagerController">
+   <children>
+      <TextField fx:id="txtFileField" layoutX="250.0" layoutY="89.0" />
+      <Label layoutX="166.0" layoutY="29.0" text="File Manager" />
+      <Label layoutX="233.0" layoutY="155.0" text="File operations" />
+      <Button fx:id="copyBtn" layoutX="20.0" layoutY="214.0" mnemonicParsing="false" onAction="#copy" text="Copy file" />
+      <Button fx:id="createBtn" layoutX="20.0" layoutY="175.0" mnemonicParsing="false" onAction="#createfile" text="Create file" />
+      <Button fx:id="moveBtn" layoutX="19.0" layoutY="250.0" mnemonicParsing="false" onAction="#move" text="Move file" />
+      <Label layoutX="126.0" layoutY="93.0" text="Enter File name" />
+      <Button fx:id="renameBtn" layoutX="18.0" layoutY="327.0" mnemonicParsing="false" onAction="#rename" text="Rename" />
+      <Button fx:id="uploadBtn" layoutX="19.0" layoutY="288.0" mnemonicParsing="false" text="Upload" />
+      <Button fx:id="delBtn" layoutX="466.0" layoutY="188.0" mnemonicParsing="false" onAction="#delete" text="Delete file" />
+      <Button fx:id="backBtn" layoutX="484.0" layoutY="340.0" mnemonicParsing="false" onAction="#back" text="Back" />
+      <TextField fx:id="txtFileRename" layoutX="250.0" layoutY="124.0" />
+      <Label layoutX="130.0" layoutY="129.0" text="Rename or Move" />
+      <Label layoutX="150.0" layoutY="206.0" text="To check open file manager" />
+   </children>
+</AnchorPane>
